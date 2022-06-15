@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|center_horizontal|center_vertical"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".fragment.PostagemFragment">
+
+
+    <Button
+        android:id="@+id/buttonAbrirGaleria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="abrir galeria" />
+
+    <Button
+        android:id="@+id/buttonAbrirCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="abrir câmera" />
+</LinearLayout>
